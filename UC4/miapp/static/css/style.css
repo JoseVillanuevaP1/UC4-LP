@@ -185,14 +185,13 @@
   .box form input[type="submit"],
   .box form input[type="button"],
   .box form button{
-      padding: 10px;
-      margin-top: 5px;
-      background: #2ba977;
-      border: 1px solid #444;
+      padding: 12.5px;
+      margin-top: 15px;
+      width: 100px;
+      background: #16181D;
+      border: 1px solid black;
       color: white;
       transition: 300ms all;
-  
-  
   }
   
   
@@ -200,7 +199,7 @@
   .box form input[type="button"]:hover,
   .box form button:hover{
       cursor: pointer;
-      background: #1f7e58;
+      color: #61DAFB;
   }
   
   .rojo{
