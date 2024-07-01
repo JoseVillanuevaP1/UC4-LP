@@ -23,6 +23,7 @@ urlpatterns = [
     path('', views.listar_cursos, name = "listar_cursos"),
     path('listar-cursos/',views.listar_cursos,name="listar_cursos"),
     path('create-curso/',views.create_curso, name='create_curso'),
+    path('eliminar-curso/<int:id>',views.eliminar_curso, name='eliminar_curso'),
     path('listar-carreras/',views.listar_carreras,name="listar_carreras"),
     path('create-carrera/',views.create_carrera, name='create_carrera'),
 ]
